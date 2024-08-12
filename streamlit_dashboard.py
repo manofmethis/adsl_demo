@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-file_path = 'C:\\Users\\chira\\OneDrive\\Documents\\decode\\decode_final_round_prog\\adsl.xlsx'
-data = pd.read_excel(file_path)
+
+data = pd.read_excel('adsl.xlsx')
 
 def create_donut_plot(data, variable):
     figs = {}
